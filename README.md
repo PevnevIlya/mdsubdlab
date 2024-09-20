@@ -17,9 +17,10 @@ password: varchar(128), NOT NULL
 email: varchar(128), NOT NULL  
 telephone_number: varchar(128), NOT NULL  
 - **Role**:
-id: Integer, PK, NOT NULL,
-user_id: Integer, NOT NULL,
-permission_id: Integer, NOT NULL,
+
+id: Integer, PK, NOT NULL
+user_id: Integer, NOT NULL
+permission_id: Integer, NOT NULL
 role_name: varchar(128), NOT NULL
 - **Permission**:
 id: Integer, NOT NULL,
