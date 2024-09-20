@@ -10,11 +10,11 @@
 - **Купоны**: Предоставляют скидки на товары для пользователей.
 # Сущности
 - **User**:
-id: Integer, PK, NOT NULL,
-name: varchar(128), NOT NULL,
-password: varchar(128), NOT NULL,
-email: varchar(128), NOT NULL,
-telephone_number: varchar(128), NOT NULL
+id: Integer, PK, NOT NULL  
+name: varchar(128), NOT NULL  
+password: varchar(128), NOT NULL  
+email: varchar(128), NOT NULL  
+telephone_number: varchar(128), NOT NULL  
 - **Role**:
 id: Integer, PK, NOT NULL,
 user_id: Integer, NOT NULL,
